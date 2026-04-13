@@ -1,0 +1,2 @@
+(event_simpleName=DnsRequest OR event_simpleName=NetworkConnectIP4)
+AND DomainName="mastermrc2.kozow.com"
