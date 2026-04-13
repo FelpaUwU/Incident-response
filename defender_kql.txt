@@ -1,0 +1,4 @@
+DeviceNetworkEvents
+| where RemoteUrl contains "mastermrc2.kozow.com"
+| project Timestamp, DeviceName, InitiatingProcessFileName, RemoteUrl, RemoteIP
+| order by Timestamp desc
